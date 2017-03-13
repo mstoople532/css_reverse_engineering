@@ -1,0 +1,54 @@
+html {
+  background-color: #E2AC7F
+}
+
+h1 {
+  font-family: Impact;
+  font-style: italic;
+  background-color: #F5F5DC;
+  text-align: center;
+  border-bottom-style: dotted;
+  border-bottom-width: thick;
+  margin-top: auto;
+  letter-spacing: 1px;
+}
+
+body {
+  display: block;
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #F5F5DC;
+  border-style: dotted;
+  border-width: thick;
+}
+
+p.intro {
+  text-align: left;
+  margin: auto;
+  margin: 20px 20px 25px 20px;
+  font-family: "Verdana";
+  font-size: 14px
+}
+
+p.poem {
+  text-align: center;
+  font-style: italic;
+  font-family: "Verdana";
+  line-height: 7px
+}
+
+p.poem::first-letter {
+  font-size: 22px;
+}
+
+p.references {
+  text-align: center;
+  font-family: "Verdana";
+  font-size: 12px;
+  margin-top: 30px
+}
+
+a:link {
+  text-decoration: none;
+}
